@@ -1,0 +1,19 @@
+[
+    {
+        "id": 1,
+        "message": "testcomment1",
+        "post_id": 1
+    },
+
+    {
+        "id": 2,
+        "message": "testcomment2",
+        "post_id": 2
+    },
+
+    {
+        "id": 3,
+        "message": "testcomment3",
+        "post_id": 2
+    }
+]
