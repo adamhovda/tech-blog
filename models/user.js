@@ -1,5 +1,6 @@
 const { Model, DataTypes } = require('sequelize');
 const sequelize = require('../config/connection');
+const bcrypt =require('bcrypt');
 
 // create our Location model
 class User extends Model {}
@@ -14,6 +15,10 @@ User.init(
       autoIncrement: true
     },
     name: {
+      type: DataTypes.STRING,
+      allowNull: true
+    },
+    email: {
       type: DataTypes.STRING,
       allowNull: false
     },
